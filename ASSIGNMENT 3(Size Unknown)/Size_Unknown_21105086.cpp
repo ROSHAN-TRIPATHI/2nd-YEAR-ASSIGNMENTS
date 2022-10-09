@@ -18,14 +18,14 @@ The concept behind this approach is:
 int binary_search(int arr[],int i,int j,int key){
     int m=(i+j)/2; //m=middle element
     while(i<=j){   //i=starting index j=ending index
-    if(arr[m]==key){return 1;}
+    if(arr[m]==key){return m;}
     else{
         if(arr[m]<key){i=m+1;}
         else{j=m-1;}
     }
     m=(i+j)/2;
     }
-    return -1;
+    return -1;  // when element is not present we will return -1
 }
 //Enhanced binary search function or Binary search for array with unknown lenght
 int binary_search_unknown(int arr[],int key){
