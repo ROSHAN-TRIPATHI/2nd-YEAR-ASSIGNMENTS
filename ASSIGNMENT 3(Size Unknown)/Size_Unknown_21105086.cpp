@@ -18,7 +18,7 @@ The concept behind this approach is:
 int binary_search(int arr[],int i,int j,int key){
     int m=(i+j)/2; //m=middle element
     while(i<=j){   //i=starting index j=ending index
-    if(arr[m]==key){return m;}
+    if(arr[m]==key){return m;}  // if key to be searched is present we will return index of the key
     else{
         if(arr[m]<key){i=m+1;}
         else{j=m-1;}
