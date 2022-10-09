@@ -9,7 +9,7 @@ SOLUTION: We can search an element in an array whose size is unknown in O(logn) 
 
 The concept behind this approach is:
   ->Take inital value of i as 0 and j as 1.
-  ->Now increase j to j*2 until arr[j] exceed the key to be searched.\
+  ->Now increase j to j*2 until arr[j] exceed the key to be searched.
   ->Now search the key using binary search between i and j.
 
 */
