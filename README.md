@@ -1,5 +1,3 @@
-#ROSHAN TRIPATHI
-#ECE
-#SID:21105086
-#Email Roshantripathi2020@gmail.com
-#Insta ID ROSHAN_TRIPATHI
+# ROSHAN TRIPATHI ECE SID:21105086
+Email Roshantripathi2020@gmail.com
+Instagram ID: ROSHAN_TRIPATHI
